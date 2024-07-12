@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "xylarithData"
+version = "0.1.0"
+description = ""
+authors = ["Ilja Grigorjev <extern.grigorjev_ilja@allianz-warranty.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.111.0"
+uvicorn = "^0.30.1"
+sqlalchemy = "^2.0.31"
+databases = "^0.9.0"
+psycopg2 = "^2.9.1"
+asyncpg = "0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
